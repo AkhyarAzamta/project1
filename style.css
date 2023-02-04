@@ -1,0 +1,297 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+    /* Tweet */
+    position: relative;
+    width: 923px;
+    height: 600px;
+    margin: 0 auto;
+    background: #ECF8FF;
+}
+
+/* Frame 4 */
+.frame4 {
+    box-sizing: border-box;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 35px 31px;
+    gap: 15px;
+    position: absolute;
+    width: 601px;
+    height: 228px;
+    left: 161px;
+    top: 186px;
+    background: #FFFFFF;
+    border: 1px solid rgba(29, 161, 242, 0.2);
+    box-shadow: 0px 15px 60px rgba(29, 161, 242, 0.15);
+    border-radius: 10px;
+}
+
+/* Frame 3 */
+.frame3 {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    /* gap: 405px; */
+    width: 539px;
+    height: 50px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.frame2 {
+    /* Frame 2 */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 22px;
+
+    width: 167px;
+    height: 50px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+/* Ellipse 1 */
+.foto {
+    width: 50px;
+    height: 50px;
+    background: url(foto.png);
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+
+/* Frame 1 */
+.frame1 {
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 1px;
+    width: 95px;
+    height: 44px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.nama {
+    /* John Doe */
+    width: 75px;
+    height: 23px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+    color: #000000;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.user {
+    /* @realjohndoe */
+
+
+    width: 95px;
+    height: 20px;
+
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: rgba(0, 0, 0, 0.6);
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.twitter {
+
+    width: 30px;
+    height: 30px;
+    /* position: relative; */
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+
+}
+
+p {
+    width: 539px;
+height: 52px;
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #1DA1F2;
+}
+
+.frame6 {
+    /* Frame 6 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 20px;
+
+width: auto;
+height: 26px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+
+figcaption {
+    /* 650 */
+
+
+width: 25px;
+height: 26px;
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+
+color: rgba(0, 0, 0, 0.6);
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.frame5 {
+    /* Frame 5 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+width: 59px;
+height: 26px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.heart {
+    width: 24px;
+height: 24px;
+display: flex;
+gap: 1rem;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+/* 3:40 PM – Feb 24, 2022 */
+.time {
+width: auto;
+height: 26px;
+display: flex;
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+
+color: rgba(0, 0, 0, 0.6);
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
